@@ -1,21 +1,15 @@
 
-<table>
+<table style="width:100%;">
 <colgroup>
-<col width="6%" />
-<col width="1%" />
-<col width="29%" />
-<col width="2%" />
-<col width="5%" />
-<col width="5%" />
-<col width="12%" />
-<col width="36%" />
+<col width="54%" />
+<col width="3%" />
+<col width="3%" />
+<col width="9%" />
+<col width="28%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Authors</th>
-<th align="right">Year</th>
-<th align="left">Title</th>
-<th align="left">Journal</th>
+<th align="left">Citation</th>
 <th align="right">Data available</th>
 <th align="right">Code available</th>
 <th align="left">Notes</th>
@@ -24,10 +18,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Kentner and Franz</td>
-<td align="right">2019</td>
-<td align="left">No evidence for prosodic effects on the syntactic encoding of complement clauses in German</td>
-<td align="left">Glossa</td>
+<td align="left">Kentner, G., &amp; Franz, I. (2019). No evidence for prosodic effects on the syntactic encoding of complement clauses in German. <em>Glossa: A Journal of General Linguistics</em>, 4(1), 18. DOI: <a href="http://doi.org/10.5334/gjgl.565" class="uri">http://doi.org/10.5334/gjgl.565</a></td>
 <td align="right">1</td>
 <td align="right">1</td>
 <td align="left">Example of publishing null findings.</td>
