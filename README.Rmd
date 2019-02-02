@@ -30,7 +30,7 @@ new_entry <- tibble(
   `Data available` = 1, 
   `Code available` = 1, 
   Notes = "Example of publishing null findings.", 
-  Link = "[article](https://www.glossa-journal.org/article/10.5334/gjgl.565/)  [code](https://doi.org/10.5334/gjgl.565.s1)", 
+  Links = "[article](https://www.glossa-journal.org/article/10.5334/gjgl.565/)  [code](https://doi.org/10.5334/gjgl.565.s1)", 
   Citation = "Kentner, G., & Franz, I. (2019). No evidence for prosodic effects on the syntactic encoding of complement clauses in German. *Glossa: A Journal of General Linguistics*, 4(1), 18. DOI: http://doi.org/10.5334/gjgl.565"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
@@ -40,7 +40,7 @@ new_entry <- tibble(
 ```{r, create-table, echo=F}
 # Create GT table (not working w/ github)
 os_table %>% 
-  select(., Citation, `Data available`, `Code available`, Notes, Link) %>% 
+  select(., Citation, `Data available`, `Code available`, Notes, Links) %>% 
   kable(., format = "markdown") %>% 
   #kable_styling(., position = "center", font_size = 9, 
   #                 bootstrap_options = "striped") %>% 

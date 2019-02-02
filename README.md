@@ -13,7 +13,7 @@
 <th align="right">Data available</th>
 <th align="right">Code available</th>
 <th align="left">Notes</th>
-<th align="left">Link</th>
+<th align="left">Links</th>
 </tr>
 </thead>
 <tbody>
