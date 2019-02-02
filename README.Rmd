@@ -1,5 +1,6 @@
 ---
 output: github_document
+always_allow_html: yes
 ---
 
 ```{r, load-libs, echo=FALSE, message=F, warning=F}
@@ -9,6 +10,7 @@ library(gt)
 library(ggplot2)
 library(readr)
 library(knitr)
+library(kableExtra)
 library(here)
 ```
 
@@ -28,7 +30,7 @@ new_entry <- tibble(
   `Data available` = 1, 
   `Code available` = 1, 
   Notes = "Example of publishing null findings.", 
-  Link = "[link](https://www.glossa-journal.org/article/10.5334/gjgl.565/)"
+  Link = "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
@@ -37,5 +39,6 @@ new_entry <- tibble(
 ```{r, create-table, echo=F}
 # Create GT table
 os_table %>% 
-  kable()
+  kable(., format = "html") %>% 
+  kable_styling(., position = "center", font_size = 9)
 ```
