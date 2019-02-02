@@ -4,7 +4,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#pgzrovcbuc .gt_table {
+#rrlhmcshpy .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -23,13 +23,13 @@
   /* table.border.top.color */
 }
 
-#pgzrovcbuc .gt_heading {
+#rrlhmcshpy .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#pgzrovcbuc .gt_title {
+#rrlhmcshpy .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -40,7 +40,7 @@
   border-bottom-width: 0;
 }
 
-#pgzrovcbuc .gt_subtitle {
+#rrlhmcshpy .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -51,7 +51,7 @@
   border-top-width: 0;
 }
 
-#pgzrovcbuc .gt_bottom_border {
+#rrlhmcshpy .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -60,7 +60,7 @@
   /* heading.border.bottom.color */
 }
 
-#pgzrovcbuc .gt_column_spanner {
+#rrlhmcshpy .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -68,7 +68,7 @@
   padding-bottom: 4px;
 }
 
-#pgzrovcbuc .gt_col_heading {
+#rrlhmcshpy .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -81,11 +81,11 @@
   margin: 10px;
 }
 
-#pgzrovcbuc .gt_sep_right {
+#rrlhmcshpy .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#pgzrovcbuc .gt_group_heading {
+#rrlhmcshpy .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -109,7 +109,7 @@
   vertical-align: middle;
 }
 
-#pgzrovcbuc .gt_empty_group_heading {
+#rrlhmcshpy .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -133,29 +133,29 @@
   vertical-align: middle;
 }
 
-#pgzrovcbuc .gt_striped {
+#rrlhmcshpy .gt_striped {
   background-color: #f2f2f2;
 }
 
-#pgzrovcbuc .gt_row {
+#rrlhmcshpy .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#pgzrovcbuc .gt_stub {
+#rrlhmcshpy .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#pgzrovcbuc .gt_stub.gt_row {
+#rrlhmcshpy .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#pgzrovcbuc .gt_summary_row {
+#rrlhmcshpy .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -164,13 +164,13 @@
   /* summary_row.text_transform */
 }
 
-#pgzrovcbuc .gt_first_summary_row {
+#rrlhmcshpy .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#pgzrovcbuc .gt_table_body {
+#rrlhmcshpy .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -185,50 +185,50 @@
   /* field.border.bottom.color */
 }
 
-#pgzrovcbuc .gt_footnote {
+#rrlhmcshpy .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#pgzrovcbuc .gt_sourcenote {
+#rrlhmcshpy .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#pgzrovcbuc .gt_center {
+#rrlhmcshpy .gt_center {
   text-align: center;
 }
 
-#pgzrovcbuc .gt_left {
+#rrlhmcshpy .gt_left {
   text-align: left;
 }
 
-#pgzrovcbuc .gt_right {
+#rrlhmcshpy .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pgzrovcbuc .gt_font_normal {
+#rrlhmcshpy .gt_font_normal {
   font-weight: normal;
 }
 
-#pgzrovcbuc .gt_font_bold {
+#rrlhmcshpy .gt_font_bold {
   font-weight: bold;
 }
 
-#pgzrovcbuc .gt_font_italic {
+#rrlhmcshpy .gt_font_italic {
   font-style: italic;
 }
 
-#pgzrovcbuc .gt_super {
+#rrlhmcshpy .gt_super {
   font-size: 65%;
 }
 
-#pgzrovcbuc .gt_footnote_glyph {
+#rrlhmcshpy .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
@@ -248,11 +248,14 @@ Title
 <th class="gt_col_heading gt_left" rowspan="1" colspan="1">
 Journal
 </th>
-<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
 Data available
 </th>
-<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+<th class="gt_col_heading gt_right" rowspan="1" colspan="1">
 Code available
+</th>
+<th class="gt_col_heading gt_left" rowspan="1" colspan="1">
+Notes
 </th>
 <th class="gt_col_heading gt_left" rowspan="1" colspan="1">
 Link
@@ -272,11 +275,14 @@ No evidence for prosodic effects on the syntactic encoding of complement clauses
 <td class="gt_row gt_left">
 Glossa
 </td>
-<td class="gt_row gt_left">
-yes
+<td class="gt_row gt_right">
+1
+</td>
+<td class="gt_row gt_right">
+1
 </td>
 <td class="gt_row gt_left">
-yes
+Example of publishing null findings.
 </td>
 <td class="gt_row gt_left">
 <https://www.glossa-journal.org/article/10.5334/gjgl.565/>

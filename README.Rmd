@@ -7,12 +7,36 @@ library(dplyr)
 library(tidyr)
 library(gt)
 library(ggplot2)
+library(here)
+library(readr)
 ```
 
-```{r, create-table, echo=FALSE}
-tribble(
-  ~'Authors', ~'Year', ~'Title', ~'Journal', ~'Data available', ~'Code available', ~'Link', 
-  "Kentner and Franz", 2019, "No evidence for prosodic effects on the syntactic encoding of complement clauses in German", "Glossa", "yes", "yes", "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
+```{r, load-table, echo=F, message=F}
+# Load table
+os_table <- read_csv(here("data", "os_data.csv"))
+```
+
+
+```{r, add-entry, echo=FALSE, eval=FALSE}
+# Add new entries
+new_entry <- tibble(
+  Authors = "Kentner and Franz", 
+  Year = 2019, 
+  Title = "No evidence for prosodic effects on the syntactic encoding of 
+           complement clauses in German", 
+  Journal = "Glossa", 
+  `Data available` = 1, 
+  `Code available` = 1, 
+  Notes = "Example of publishing null findings.", 
+  Link = "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
 ) %>% 
+  bind_rows(os_table, .) %>% 
+  write_csv(., here("data", "os_data.csv"))
+```
+
+
+```{r, create-table, echo=F}
+# Create GT table
+os_table %>% 
   gt()
 ```
