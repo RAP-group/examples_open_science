@@ -30,15 +30,17 @@ new_entry <- tibble(
   `Data available` = 1, 
   `Code available` = 1, 
   Notes = "Example of publishing null findings.", 
-  Link = "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
+  Link = "[article](https://www.glossa-journal.org/article/10.5334/gjgl.565/)  [code](https://doi.org/10.5334/gjgl.565.s1)"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
 
 
 ```{r, create-table, echo=F}
-# Create GT table
+# Create GT table (not working w/ github)
 os_table %>% 
-  kable(., format = "html") %>% 
-  kable_styling(., position = "center", font_size = 9)
+  kable(., format = "markdown") %>% 
+  #kable_styling(., position = "center", font_size = 9, 
+  #                 bootstrap_options = "striped") %>% 
+  {.}
 ```
