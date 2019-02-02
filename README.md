@@ -4,7 +4,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#olhxlyuekg .gt_table {
+#aabbkndcqg .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -23,13 +23,13 @@
   /* table.border.top.color */
 }
 
-#olhxlyuekg .gt_heading {
+#aabbkndcqg .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#olhxlyuekg .gt_title {
+#aabbkndcqg .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -40,7 +40,7 @@
   border-bottom-width: 0;
 }
 
-#olhxlyuekg .gt_subtitle {
+#aabbkndcqg .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -51,7 +51,7 @@
   border-top-width: 0;
 }
 
-#olhxlyuekg .gt_bottom_border {
+#aabbkndcqg .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -60,7 +60,7 @@
   /* heading.border.bottom.color */
 }
 
-#olhxlyuekg .gt_column_spanner {
+#aabbkndcqg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -68,7 +68,7 @@
   padding-bottom: 4px;
 }
 
-#olhxlyuekg .gt_col_heading {
+#aabbkndcqg .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -81,11 +81,11 @@
   margin: 10px;
 }
 
-#olhxlyuekg .gt_sep_right {
+#aabbkndcqg .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#olhxlyuekg .gt_group_heading {
+#aabbkndcqg .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -109,7 +109,7 @@
   vertical-align: middle;
 }
 
-#olhxlyuekg .gt_empty_group_heading {
+#aabbkndcqg .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -133,29 +133,29 @@
   vertical-align: middle;
 }
 
-#olhxlyuekg .gt_striped {
+#aabbkndcqg .gt_striped {
   background-color: #f2f2f2;
 }
 
-#olhxlyuekg .gt_row {
+#aabbkndcqg .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#olhxlyuekg .gt_stub {
+#aabbkndcqg .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#olhxlyuekg .gt_stub.gt_row {
+#aabbkndcqg .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#olhxlyuekg .gt_summary_row {
+#aabbkndcqg .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -164,13 +164,13 @@
   /* summary_row.text_transform */
 }
 
-#olhxlyuekg .gt_first_summary_row {
+#aabbkndcqg .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#olhxlyuekg .gt_table_body {
+#aabbkndcqg .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -185,50 +185,50 @@
   /* field.border.bottom.color */
 }
 
-#olhxlyuekg .gt_footnote {
+#aabbkndcqg .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#olhxlyuekg .gt_sourcenote {
+#aabbkndcqg .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#olhxlyuekg .gt_center {
+#aabbkndcqg .gt_center {
   text-align: center;
 }
 
-#olhxlyuekg .gt_left {
+#aabbkndcqg .gt_left {
   text-align: left;
 }
 
-#olhxlyuekg .gt_right {
+#aabbkndcqg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#olhxlyuekg .gt_font_normal {
+#aabbkndcqg .gt_font_normal {
   font-weight: normal;
 }
 
-#olhxlyuekg .gt_font_bold {
+#aabbkndcqg .gt_font_bold {
   font-weight: bold;
 }
 
-#olhxlyuekg .gt_font_italic {
+#aabbkndcqg .gt_font_italic {
   font-style: italic;
 }
 
-#olhxlyuekg .gt_super {
+#aabbkndcqg .gt_super {
   font-size: 65%;
 }
 
-#olhxlyuekg .gt_footnote_glyph {
+#aabbkndcqg .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
@@ -279,7 +279,7 @@ yes
 yes
 </td>
 <td class="gt_row gt_left">
-[glossa](https://www.glossa-journal.org/article/10.5334/gjgl.565/)
+<https://www.glossa-journal.org/article/10.5334/gjgl.565/>
 </td>
 </tr>
 </tbody>

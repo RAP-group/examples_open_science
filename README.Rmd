@@ -9,10 +9,10 @@ library(gt)
 library(ggplot2)
 ```
 
-```{r, create-table, echo=FALSE, results='asis'}
+```{r, create-table, echo=FALSE, results='markup'}
 tribble(
   ~'Authors', ~'Year', ~'Title', ~'Journal', ~'Data available', ~'Code available', ~'Link', 
-  "Kentner and Franz", 2019, "No evidence for prosodic effects on the syntactic encoding of complement clauses in German", "Glossa", "yes", "yes", "[glossa](https://www.glossa-journal.org/article/10.5334/gjgl.565/)"
+  "Kentner and Franz", 2019, "No evidence for prosodic effects on the syntactic encoding of complement clauses in German", "Glossa", "yes", "yes", "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
 ) %>% 
   gt()
 ```
