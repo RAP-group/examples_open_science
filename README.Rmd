@@ -7,8 +7,9 @@ library(dplyr)
 library(tidyr)
 library(gt)
 library(ggplot2)
-library(here)
 library(readr)
+library(knitr)
+library(here)
 ```
 
 ```{r, load-table, echo=F, message=F}
@@ -22,21 +23,19 @@ os_table <- read_csv(here("data", "os_data.csv"))
 new_entry <- tibble(
   Authors = "Kentner and Franz", 
   Year = 2019, 
-  Title = "No evidence for prosodic effects on the syntactic encoding of 
-           complement clauses in German", 
+  Title = "No evidence for prosodic effects on the syntactic encoding of complement clauses in German", 
   Journal = "Glossa", 
   `Data available` = 1, 
   `Code available` = 1, 
   Notes = "Example of publishing null findings.", 
-  Link = "https://www.glossa-journal.org/article/10.5334/gjgl.565/"
+  Link = "[link](https://www.glossa-journal.org/article/10.5334/gjgl.565/)"
 ) %>% 
-  bind_rows(os_table, .) %>% 
-  write_csv(., here("data", "os_data.csv"))
+  write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
 
 
 ```{r, create-table, echo=F}
 # Create GT table
 os_table %>% 
-  gt()
+  kable()
 ```
