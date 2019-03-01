@@ -23,7 +23,7 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Klienschmidt", 
+  Authors = "Kleinschmidt", 
   Year = 2018, 
   Title = "Structure in talker variability: How much is there and how much can it help?", 
   Journal = "Pre-print", 
