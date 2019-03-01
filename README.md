@@ -38,5 +38,19 @@
 <td align="left">How do listeners cope with variability in the speech signal?</td>
 <td align="left"><a href="https://psyarxiv.com/a4tkn/">article</a> <a href="https://osf.io/3wcy5/">code</a></td>
 </tr>
+<tr class="even">
+<td align="left">Broos, W. P. J., Duyck, W., &amp; Hartsuiker, R. (2017, May 3). The Lexical Bias Effect during Speech Production in the First and Second Language. <a href="https://doi.org/10.31234/osf.io/evpt7" class="uri">https://doi.org/10.31234/osf.io/evpt7</a></td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="left">Does the lexical bias affect exist in L2 speech?</td>
+<td align="left"><a href="https://psyarxiv.com/evpt7/">article</a> <a href="https://osf.io/egr93/">code</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Hasselman, F. (2017, October 20). Classifying Acoustic Signals into Phoneme Categories. Retrieved from osf.io/a8g32</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="left">Pathological speech perception.</td>
+<td align="left"><a href="https://peerj.com/preprints/341v1/">article</a> <a href="https://osf.io/a8g32/">code</a></td>
+</tr>
 </tbody>
 </table>

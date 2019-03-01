@@ -23,15 +23,15 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Kleinschmidt", 
-  Year = 2018, 
-  Title = "Structure in talker variability: How much is there and how much can it help?", 
+  Authors = "Hasselman", 
+  Year = 2014, 
+  Title = "Classifying acoustic signals into phoneme categories: average and dyslexic readers make use of complex dynamical patterns", 
   Journal = "Pre-print", 
   `Data available` = 1, 
   `Code available` = 1, 
-  Notes = "How do listeners cope with variability in the speech signal?", 
-  Links = "[article](https://psyarxiv.com/a4tkn/)  [code](https://osf.io/3wcy5/)", 
-  Citation = "Kleinschmidt, D. F. (2018, January 15). Structure in talker variability: How much is there and how much can it help?. https://doi.org/10.1080/23273798.2018.1500698"
+  Notes = "Pathological speech perception.", 
+  Links = "[article](https://peerj.com/preprints/341v1/)  [code](https://osf.io/a8g32/)", 
+  Citation = "Hasselman, F. (2017, October 20). Classifying Acoustic Signals into Phoneme Categories. Retrieved from osf.io/a8g32"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
