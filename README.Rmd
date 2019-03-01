@@ -23,15 +23,15 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Rasanen, Doyle and Frank", 
-  Year = 2017, 
-  Title = "Pre-linguistic segmentation of speech into syllable-like units", 
-  Journal = "Cognition", 
+  Authors = "Klienschmidt", 
+  Year = 2018, 
+  Title = "Structure in talker variability: How much is there and how much can it help?", 
+  Journal = "Pre-print", 
   `Data available` = 1, 
   `Code available` = 1, 
-  Notes = "Are syllable-like structures available to infants before phonological development?", 
-  Links = "[article](https://psyarxiv.com/cfy9r/)  [code](https://osf.io/86wmj/)", 
-  Citation = "Räsänen, O., Doyle, G., & Frank, M. C. (2017, October 23). Pre-linguistic segmentation of speech into syllable-like units. https://doi.org/10.31234/osf.io/cfy9r"
+  Notes = "How do listeners cope with variability in the speech signal?", 
+  Links = "[article](https://psyarxiv.com/a4tkn/)  [code](https://osf.io/3wcy5/)", 
+  Citation = "Kleinschmidt, D. F. (2018, January 15). Structure in talker variability: How much is there and how much can it help?. https://doi.org/10.1080/23273798.2018.1500698"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```

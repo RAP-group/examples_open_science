@@ -31,5 +31,12 @@
 <td align="left">Are syllable-like structures available to infants before phonological development?</td>
 <td align="left"><a href="https://psyarxiv.com/cfy9r/">article</a> <a href="https://osf.io/86wmj/">code</a></td>
 </tr>
+<tr class="odd">
+<td align="left">Kleinschmidt, D. F. (2018, January 15). Structure in talker variability: How much is there and how much can it help?. <a href="https://doi.org/10.1080/23273798.2018.1500698" class="uri">https://doi.org/10.1080/23273798.2018.1500698</a></td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="left">How do listeners cope with variability in the speech signal?</td>
+<td align="left"><a href="https://psyarxiv.com/a4tkn/">article</a> <a href="https://osf.io/3wcy5/">code</a></td>
+</tr>
 </tbody>
 </table>
