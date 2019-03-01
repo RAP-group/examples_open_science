@@ -23,15 +23,15 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Kentner and Franz", 
-  Year = 2019, 
-  Title = "No evidence for prosodic effects on the syntactic encoding of complement clauses in German", 
-  Journal = "Glossa", 
+  Authors = "Rasanen, Doyle and Frank", 
+  Year = 2017, 
+  Title = "Pre-linguistic segmentation of speech into syllable-like units", 
+  Journal = "Cognition", 
   `Data available` = 1, 
   `Code available` = 1, 
-  Notes = "Example of publishing null findings.", 
-  Links = "[article](https://www.glossa-journal.org/article/10.5334/gjgl.565/)  [code](https://doi.org/10.5334/gjgl.565.s1)", 
-  Citation = "Kentner, G., & Franz, I. (2019). No evidence for prosodic effects on the syntactic encoding of complement clauses in German. *Glossa: A Journal of General Linguistics*, 4(1), 18. DOI: http://doi.org/10.5334/gjgl.565"
+  Notes = "Are syllable-like structures available to infants before phonological development?", 
+  Links = "[article](https://psyarxiv.com/cfy9r/)  [code](https://osf.io/86wmj/)", 
+  Citation = "Räsänen, O., Doyle, G., & Frank, M. C. (2017, October 23). Pre-linguistic segmentation of speech into syllable-like units. https://doi.org/10.31234/osf.io/cfy9r"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
