@@ -23,15 +23,15 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Hasselman", 
-  Year = 2014, 
-  Title = "Classifying acoustic signals into phoneme categories: average and dyslexic readers make use of complex dynamical patterns", 
-  Journal = "Pre-print", 
+  Authors = "Roettger, Mahrt, and Cole", 
+  Year = 2019, 
+  Title = "Mapping prosody onto meaning – the case of information structure in American English", 
+  Journal = "Language, Cognition and Neuroscience", 
   `Data available` = 1, 
   `Code available` = 1, 
-  Notes = "Pathological speech perception.", 
-  Links = "[article](https://peerj.com/preprints/341v1/)  [code](https://osf.io/a8g32/)", 
-  Citation = "Hasselman, F. (2017, October 20). Classifying Acoustic Signals into Phoneme Categories. Retrieved from osf.io/a8g32"
+  Notes = "Perception of prosody with regard to information structure.", 
+  Links = "[article](https://timo-roettger.weebly.com/uploads/1/0/0/6/100641454/roettger_mahrt_cole__2019_._mapping_prosody_onto_meaning_the_case_of_information_structure_in_american_english.pdf)  [code](https://osf.io/4qxmh/)", 
+  Citation = "Roettger, T. B., Mahrt, T., & Cole, J. (2019): Mapping prosody onto meaning – the case of information structure in American English, Language, Cognition and Neuroscience"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
@@ -40,6 +40,7 @@ new_entry <- tibble(
 ```{r, create-table, echo=F}
 # Create GT table (not working w/ github)
 os_table %>% 
+  arrange(., desc(Year), Citation) %>% 
   select(., Citation, `Data available`, `Code available`, Notes, Links) %>% 
   kable(., format = "markdown") %>% 
   #kable_styling(., position = "center", font_size = 9, 
