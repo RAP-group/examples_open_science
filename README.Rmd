@@ -23,15 +23,15 @@ os_table <- read_csv(here("data", "os_data.csv"))
 ```{r, add-entry, echo=FALSE, eval=FALSE}
 # Add new entries
 new_entry <- tibble(
-  Authors = "Roettger, Mahrt, and Cole", 
+  Authors = "Bürkner and Vuorre", 
   Year = 2019, 
-  Title = "Mapping prosody onto meaning – the case of information structure in American English", 
-  Journal = "Language, Cognition and Neuroscience", 
+  Title = "Ordinal Regression Models in Psychology: A Tutorial Public", 
+  Journal = "Advances in Methods and Practices in Psychological Science", 
   `Data available` = 1, 
   `Code available` = 1, 
-  Notes = "Perception of prosody with regard to information structure.", 
-  Links = "[article](https://timo-roettger.weebly.com/uploads/1/0/0/6/100641454/roettger_mahrt_cole__2019_._mapping_prosody_onto_meaning_the_case_of_information_structure_in_american_english.pdf)  [code](https://osf.io/4qxmh/)", 
-  Citation = "Roettger, T. B., Mahrt, T., & Cole, J. (2019): Mapping prosody onto meaning – the case of information structure in American English, Language, Cognition and Neuroscience"
+  Notes = "Tutorial for lykert-scale type data.", 
+  Links = "[article](https://journals.sagepub.com/doi/pdf/10.1177/2515245918823199)  [code](https://osf.io/cu8jv/)", 
+  Citation = "Bürkner, P.-C., & Vuorre, M. (2019). Ordinal Regression Models in Psychology: A Tutorial. Advances in Methods and Practices in Psychological Science. https://doi.org/10.1177/2515245918823199"
 ) %>% 
   write_csv(., here("data", "os_data.csv"), append = TRUE)
 ```
